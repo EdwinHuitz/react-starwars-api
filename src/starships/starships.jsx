@@ -14,15 +14,15 @@ async componentDidMount()
 render()
 {
     return(
-    <>
+    <div className="main">
     {this.state.allStarShips.map((allStarShips,idx)=>
         <div key={idx}>
             <Link to={{pathname:'/starships', starState:{allStarShips},}} >
-            {allStarShips.name}
-            </Link><br/>
+            <button className="btn">{allStarShips.name}</button>
+            </Link>
         </div>
     )}
-    </>)
+    </div>)
 }
     
 }

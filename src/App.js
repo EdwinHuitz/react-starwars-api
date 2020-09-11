@@ -8,7 +8,8 @@ function App(){
 
     return(
     <>
-    <span className="banner"><h1>Star Wars</h1></span>
+    <span className="stars"></span><span className="twinkling"></span><span className="clouds"></span>
+    <span className="banner"><h1><a href="/" className="a1">Star Wars Ships</a></h1><a rel="noopener noreferrer" target="_blank" href="https://swapi.dev/"><h3>swapi.dev</h3></a></span>
     <Route exact path='/' render={()=>
       <StarShips />
     } />
