@@ -8,7 +8,7 @@ This is a React based API fetching website which fetches a list of Star-Ships fr
 <hr/>
 
 ## Demo
-https://aplaple.herokuapp.com/
+https://swships.herokuapp.com/
 
 ## Technologies Used
   
